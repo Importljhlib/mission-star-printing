@@ -60,9 +60,6 @@ class PrintingStar {
         }
     }
 
-    // 한 변 3^n = k, 빵구 = k/3+1 ~ 2*k/3 (i/3)%3 == 1
-    public void level_7(int n){
-    }
 
     public void print_star(int lv){
         switch (lv){
@@ -72,7 +69,6 @@ class PrintingStar {
             case 4 -> level_4();
             case 5 -> level_5();
             case 6 -> level_6();
-            case 7 -> level_7(size);
             default -> throw new RuntimeException("잘못된 레벨의 번호입니다.");
         }
     }
